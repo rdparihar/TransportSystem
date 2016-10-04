@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Transport System</title>
+
+  <!-- CSS  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style type="text/css">
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(font/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+  </style>
+</head>
+<body>
+
+
+  <nav class=" blue darken-1 z-depth-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"> <img src="images/TS.png" width="65px" height="65px;">   
+    </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="notice.php">Notice</a></li>
+        <li><a href="documents/Offences.htm">Offences & Penalties</a></li>
+        <li><a href="admin/admin-login.html">Admin Login</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#Training">Notice</a></li>
+        <li><a href="documents/Offences.htm">Offences & Penalties</a></li>
+        <li><a href="admin/admin-login.html">Admin Login</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<div class="container">
+ <div class="row">
+      <div class="col s12">
+        <div class="card-panel teal">
+          <span class="white-text center">
+                
+              <h2>Transport System</h2>
+             
+        </div>
+      </div>
+    </div>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center ">Complaint</a>
+     </div>
+    </nav>
+    </div>
+
+<div class="container amber ">
+    <div class="row ">
+        <div class="col s12">
+            <form action="complain.php" method="get">
+          
+                  <div class="card-panel ">
+                    <h4 class="header2">File a Complaint</h4>
+                    <div class="row">
+                      
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="name" type="text">
+                            <label for="name">Name</label>
+                          </div>
+                        </div>
+                                               <div class="row">
+                          <div class="input-field col s12">
+                             <input name="email"  type="text">
+                            <label for="email">Email</label>
+                          </div> 
+                        
+                            
+                            
+                            <div class="input-field col s12">
+                        <select name="type">
+                          <option  value="" disabled selected>Your complaint is Related to </option>
+                          <option value="Registration">Registration</option>
+                          <option value="permit">Permit</option>
+                          <option value="license">License </option>
+                          <option value="other">Other </option>
+                          
+                        </select>
+                        <label></label>
+                        </div>
+                            
+                             
+                        
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                       <input name="mobile" type="text">
+                            <label for="mobile">Mobile No</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <textarea name="complaint" class="materialize-textarea"></textarea>
+                            <label for="complain">Compailn</label>
+                          </div>
+                          
+                        </div>
+                     </div>
+                    </div>
+                  
+                </div>
+                
+            
+                <div class="row center">
+                            <div class="input-field col s12">
+                              <button class="btn cyan waves-effect waves-light " type="submit" name="action">Submit
+                                <i class="mdi-content-send right"></i>
+                              </button>
+                            </div>
+                          </div>   
+            </form>
+        </div> 
+      </div>
+    </div>
+            
+</div>
+
+  
+  
+  <footer class="page-footer teal">
+   
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

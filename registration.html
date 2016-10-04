@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Transport System</title>
+
+  <!-- CSS
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style type="text/css">
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(font/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+  </style>
+</head>
+<body>
+  <nav class=" blue darken-1 z-depth-1 fixed " role="navigation">
+    <div class="nav-wrapper container">
+       <a id="logo-container" href="#" class="brand-logo"> <img src="images/TS.png" width="115px" height="115px;">
+    </a>
+       <span style="font-size: 50px; padding-left: 151px;">Transport System</span>
+    </div>
+  </nav>
+  <nav class=" blue darken-1 z-depth-1 fixed " role="navigation">
+    <div class="nav-wrapper container">
+     <ul class="right hide-on-med-and-down">
+        <li><a href="index.html"><i class="material-icons">home</i></a></li>
+        <li><a href="notice.php">Notice</a></li>
+        <li><a href="documents/Offences.htm">Offences & Penalties</a></li>
+        <li><a href="admin/admin-login.html">Admin Login</a></li>
+        <li><a href="about.php">About Us</a></li>
+        <li><a href="contact_user.php">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#Training">Notice</a></li>
+        <li><a href="documents/Offences.htm">Offences & Penalties</a></li>
+        <li><a href="admin/admin-login.html">Admin Login</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<div class="container">
+
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center ">Registration</a>
+     </div>
+    </nav>
+    </div>
+
+<div class="container amber ">
+    <div class="row ">
+        <div class="col">
+            <form action="register.php" method="post">
+         <div class="col s12 m12 l6 ">
+                  <div class="card-panel">
+                    <h4 class="header2">Owner Details</h4>
+                    <div class="row">
+
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="name" type="text">
+                            <label for="name">Name</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="email" type="text">
+                            <label for="email">Email</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                          <input  name="father_name" type="text">
+                            <label for="father_name">Father/H Name</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                       <input name="mobile" type="text">
+                            <label for="mobile">Mobile No</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <textarea name="address" class="materialize-textarea"></textarea>
+                            <label for="address">Address  </label>
+                          </div>
+
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m12 l6">
+                  <div class="card-panel">
+                    <h4 class="header2">Technical Details</h4>
+                    <div class="row">
+                         <div class="row">
+                          <div class="input-field col s12">
+                            <input name="no_of_cylender" type="text">
+                            <label for="no_of_cylender">No of Cylender</label>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="class" type="text">
+                            <label for="class">Class</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="type_of_body"  type="text">
+                            <label for="type_of_body">Type of body</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="engine_no" type="text">
+                            <label for="engine_no">Engine No</label>
+                          </div>
+
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="maker_classification" type="text">
+                            <label for="maker_classification">Maker Classification</label>
+                          </div>
+
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+
+            <div class="col s12 m12 l6">
+                  <div class="card-panel">
+                    <h4 class="header2">Tyre Type and Size</h4>
+                    <div class="row">
+
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="tyre_size" type="text">
+                            <label for="tyre_size">Size</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="type_front" type="text">
+                            <label for="type_front">type front</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input name="type_back" type="text">
+                            <label for="type_back">Type Back</label>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+            <div class="col s12 m12 l6">
+                  <div class="card-panel">
+                    <h4 class="header2">Purchase Details</h4>
+                    <div class="row">
+                         <div class="row">
+                          <div class="input-field col s12">
+                            <input name="name_dealer" type="text">
+                            <label for="name_dealer">Dealer</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                             <input name="d_email"  type="text">
+                            <label for="d_email">Email</label>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <textarea  name="dealer_address" class="materialize-textarea"></textarea>
+                            <label for="dealer_address">Address of </label>
+                          </div>
+
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+            <div class="col s12 ">
+                  <div class="card-panel">
+                    <h4 class="header2">Choose Your City</h4>
+
+             <div class="row">
+                <div class="input-field col s12">
+                    <select name="rto">
+                      <option  value="" disabled selected>Choose your option</option>
+                      <option value="MP04">Bhopal</option>
+                      <option value="MP09">Indore</option>
+                      <option value="MP07">Gwalior </option>
+                      <option value="MP20">Jabalpur</option>
+                    </select>
+                    <label>Select the City</label>
+                  </div>
+                      </div></div></div>
+
+                <div class="row center">
+                            <div class="input-field col s12">
+                              <button class="btn cyan waves-effect waves-light " type="submit" name="action">Submit
+                                <i class="mdi-content-send right"></i>
+                              </button>
+                            </div>
+                          </div>
+            </form>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+  <footer class="page-footer teal">
+
+
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
